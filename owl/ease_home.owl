@@ -21,218 +21,9 @@
     
 
 
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#containsObject -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#containsObject">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#coversObject -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#coversObject">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#hasColor -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasColor">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#hasFeature -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasFeature">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#hasFrictionAttribute -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasFrictionAttribute">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#hasLocalization -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasLocalization">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#hasMassAttribute -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasMassAttribute">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent -->
 
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#hasShape -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasShape">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#interactsWith -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#interactsWith">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#involvesArtifact -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#involvesArtifact">
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#involvesPlace -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#involvesPlace">
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isArtifactInvolvedIn -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isArtifactInvolvedIn">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isColorOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isColorOf">
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isCoveredByObject -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isCoveredByObject">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isDepositOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isDepositOf">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isFeatureOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isFeatureOf">
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isInsideOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isInsideOf">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isLinkedTo -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isLinkedTo">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isLocalizationOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isLocalizationOf">
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isMovedByAgent -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isMovedByAgent">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isOntopOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isOntopOf">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isPlaceInvolvedIn -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isPlaceInvolvedIn">
-        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#isShapeOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#isShapeOf">
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#movesObject -->
-
-    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#movesObject">
-        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart -->
-
-    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart"/>
+    <owl:ObjectProperty rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent"/>
     
 
 
@@ -249,18 +40,13 @@
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#Appliance -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Appliance">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
-        <rdfs:comment>A device designed to perform a specific task, and that can be operated in some way.</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Appliance"/>
     
 
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#BakedGood -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#BakedGood">
-        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Dish"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#BakedGood"/>
     
 
 
@@ -322,10 +108,7 @@
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#Compartment -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Compartment">
-        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
-        <rdfs:comment>A seperate section or part of a structure or container.</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Compartment"/>
     
 
 
@@ -340,11 +123,7 @@
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#Crockery -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Crockery">
-        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
-        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Tableware"/>
-        <rdfs:comment>An object designed to contain food to store, cook, eat, or serve it.</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Crockery"/>
     
 
 
@@ -366,49 +145,31 @@
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#Cutlery -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Cutlery">
-        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Tableware"/>
-        <rdfs:comment>Hand tools designed to be used for eating, preparing, or serving food.</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Cutlery"/>
     
 
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#CuttingTool -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#CuttingTool">
-        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedTool"/>
-        <rdfs:comment>An object designed as a tool for cutting something.</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#CuttingTool"/>
     
 
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
-        <rdfs:comment>An object designed to be part or element of a larger whole.</rdfs:comment>
-        <rdfs:label>Designed component</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
     
 
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
-        <rdfs:comment>An item designed to be able to hold some other items, preventing their free movement and/or protecting them from outside influence. Containers may be used for storage, or to obtain control over items that are otherwise hard to manipulate directly (e.g. liquids).</rdfs:comment>
-        <rdfs:label>Designed container</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer"/>
     
 
 
     <!-- http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
-        <rdfs:comment>An object used to make a room or building suitable for living or working.</rdfs:comment>
-        <rdfs:label>Designed furniture</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture"/>
     
 
 
@@ -428,26 +189,6 @@
         <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
         <rdfs:comment>A sharp-edged metal blade used for digging or cutting.</rdfs:comment>
         <rdfs:label>Designed spade</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#DesignedTool -->
-
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#DesignedTool">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
-        <rdfs:comment>An item designed to enable some action, in which it will play an instrumental role.</rdfs:comment>
-        <rdfs:label>Designed tool</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#Dish -->
-
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Dish">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
-        <rdfs:comment>Some object prepared with the intention that it will be eaten. Its preparation often follows a particular kind of Design, called Recipe.</rdfs:comment>
-        <rdfs:seeAlso>It is sometimes usual to refer to the procedure of preparing a Dish as a recipe. We argue there should be a distinction between a recipe as such, listing ingredients and amounts, vs. a preparation workflow that describes the necessary steps to create a Dish.</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -496,14 +237,6 @@
         <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#RoomSurface"/>
         <owl:disjointWith rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Wall"/>
         <rdfs:comment>The lower interior surface of a room.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#Fluid -->
-
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Fluid">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Substance"/>
     </owl:Class>
     
 
@@ -644,21 +377,9 @@
     
 
 
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#Room -->
-
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Room">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace"/>
-        <rdfs:comment>Space that can be occupied or where something can be done.</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.ease-crc.org/ont/SOMA.owl#RoomSurface -->
 
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#RoomSurface">
-        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Surface"/>
-        <rdfs:comment>The surface of a room.</rdfs:comment>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#RoomSurface"/>
     
 
 
@@ -697,29 +418,11 @@
     
 
 
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#Surface -->
-
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Surface">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace"/>
-        <rdfs:comment>The outside part or uppermost layer of something.</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.ease-crc.org/ont/SOMA.owl#Table -->
 
     <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Table">
         <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture"/>
         <rdfs:comment>A piece of furniture with a flat top and one or more legs.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ease-crc.org/ont/SOMA.owl#Tableware -->
-
-    <owl:Class rdf:about="http://www.ease-crc.org/ont/SOMA.owl#Tableware">
-        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedTool"/>
-        <rdfs:comment>Crockery, cutlery, and glassware used for serving and eating meals at a table.</rdfs:comment>
     </owl:Class>
     
 
@@ -733,130 +436,9 @@
     
 
 
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BiologicalObject -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BiologicalObject">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="en">Biological object</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="en">Chemical object</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A PhysicalArtifact that is also described by a Design. This excludes simple recycling or refunctionalization of natural objects. Most common sense &apos;artifacts&apos; can be included in this class: cars, lamps, houses, chips, etc.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="it">Artefatto progettato</rdfs:label>
-        <rdfs:label xml:lang="en">Designed artifact</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance -->
 
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Substance"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="en">Functional substance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any PhysicalObject that isDescribedBy a Plan .
-This axiomatization is weak, but allows to talk of artifacts in a very general sense, i.e. including recycled objects, objects with an intentional functional change, natural objects that are given a certain function, even though they are not modified or structurally designed, etc. PhysicalArtifact(s) are not considered disjoint from PhysicalBody(s), in order to allow a dual classification when needed. E.g.,
-FunctionalSubstance(s) are included here as well.
-Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corporations, communities, etc. can be modelled as social objects (see SocialObject), which are all &apos;artifactual&apos; in the weak sense assumed here.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="it">Artefatto fisico</rdfs:label>
-        <rdfs:label xml:lang="en">Physical artifact</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical bodies are PhysicalObject(s), for which we tend to neutralize any possible artifactual character. They can have several granularity levels: geological, chemical, physical, biological, etc.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="en">Physical body</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any Object that has a proper space region. The prototypical physical object has also an associated mass, but the nature of its mass can greatly vary based on the epistemological status of the object (scientifically measured, subjectively possible, imaginary).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="it">Oggetto fisico</rdfs:label>
-        <rdfs:label xml:lang="en">Physical object</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical object that is inherently located; for example, a water area.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="it">Luogo fisico</rdfs:label>
-        <rdfs:label xml:lang="en">Physical place</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Substance -->
-
-    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Substance">
-        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any PhysicalBody that has not necessarily specified (designed) boundaries, e.g. a pile of trash, some sand, etc. 
-In this sense, an artistic object made of trash or a dose of medicine in the form of a pill would be a FunctionalSubstance, and a DesignedArtifact, since its boundaries are specified by a Design; aleatoric objects that are outcomes of an artistic process might be still considered DesignedArtifact(s), and Substance(s).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <rdfs:label xml:lang="it">Sostanza</rdfs:label>
-        <rdfs:label xml:lang="en">Substance</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance"/>
 </rdf:RDF>
 
 
